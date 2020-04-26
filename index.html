@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Breathe!</title>
+</head>
+
+<body>
+	<header class="header">
+		<div class="header__text-box">
+			<h1 class="heading-primary">
+				<span class="heading-primary--main">Breathe!</span>
+				<span class="heading-primary--sub">
+					App that helps you to relax</span>
+			</h1>
+		</div>
+	</header>
+
+	<main>
+		<section class="relaxer">
+
+			<div class="bg-video">
+				<video class="bg-video__content" autoplay muted loop>
+					<source src="sky.mp4" type="video/mp4">
+					Your browser is not supported!
+				</video>
+			</div>
+
+			<div class="container">
+
+				<div class="container__circle"></div>
+
+				<p class="container__text">
+					<span class="text--main">Press start!</span>
+					<span class="text--sub">(press again to stop)</span>
+				</p>
+
+				<div class="container__pointer-container">
+					<span class="pointer"></span>
+				</div>
+
+				<div class="container__background-circle"></div>
+
+			</div>
+		</section>
+	</main>
+
+	<script src="script.js"></script>
+</body>
+
+</html>
